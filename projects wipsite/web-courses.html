@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/icon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="Images/icon.png" sizes="32x32" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="description"
+      content="انضم إلينا في أكاديمية ديليل لتبدأ رحلتك في عالم البرمجة بثقة وإلهام"
+    />
+    <title>أكاديمية دليلي</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body dir="rtl">
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.png" alt="شعار" width="75" height="60" />
+        <a href="#">دليلي</a>
+      </div>
+      <ul>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        <li><a href="courses.html">كورسات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="visitors_opinions.html">آراء الزوار</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+    <div class="prog-title">
+      <h2>
+        <i class="fa-solid fa-globe"></i></i
+        >&nbsp;&nbsp;&nbsp;تصميم ويب
+      </h2>
+    </div>
+    <div class="prog-course">
+      <h2 style="padding: 5px 30px" class="html-title">
+        <i class="fa-brands fa-html5"></i>HTML
+      </h2>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/html-img.png" alt="course1-image" id="html-img" />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس تعلم لغة Html بأحتراف</h3>
+          <p>
+            كورس تعلم لغة HTML يركز على بناء هيكل صفحات الويب، مع دراسة العناصر
+            الأساسية، مثل النصوص، الروابط، والصور، مما يعزز مهارات تطوير
+            الواجهات بشكل منهجي.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/html-img2.png" alt="course1-image" id="html-img2" />
+        </div>
+        <div class="course1-desc">
+          <h3>Learning Html In English</h3>
+          <p>
+            كورس تعلم لغة HTML يتيح لك بناء مهارات تطوير الويب. رغم أن الشرح
+            باللغة الإنجليزية، فإن المحتوى واضح ويسهل الفهم. لا تفوت الفرصة!
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+
+      <div class="prog-course1">
+        <div class="course1-image" id="h-image">
+          <img src="Images/html-tut.jpg" alt="course1-image" id="html-t" />
+        </div>
+        <div class="course1-desc">
+          <h3>HTML Tutorials Point</h3>
+          <p>
+            كتاب "HTML Tutorial" يقدم شرحًا شاملًا لأساسيات HTML، مع أمثلة عملية
+            وشروحات مبسطة، مما يساعد القراء على فهم كيفية بناء صفحات ويب بشكل
+            فعال.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+    </div>
+    <div class="prog-course" id="str-course">
+      <h2 style="padding: 5px 30px" class="css-title">
+        <i class="fa-brands fa-css3-alt"></i>CSS
+      </h2>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/css-img.png" alt="course1-image" id="css-image" />
+        </div>
+        <div class="course1-desc">
+          <h3>تعلم لغة ال CSS بأحتراف</h3>
+          <p>
+            كورس تعلم لغة CSS يقدم دراسة شاملة لتنسيق صفحات الويب، مع التركيز
+            على تقنيات التصميم الحديثة. سيمكنك الكورس من إنشاء تجارب مستخدم
+            جذابة واحترافية بسهولة وفعالية.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/web-img.png" alt="course1-image" id="css-image2" />
+        </div>
+        <div class="course1-desc">
+          <h3>Learning CSS In English</h3>
+          <p>
+            كورس تعلم CSS يقدم دراسة متعمقة لتنسيق صفحات الويب. رغم أن الشرح
+            باللغة الإنجليزية، فإن المحتوى واضح ويعزز فهم المفاهيم الأساسية
+            لتحسين مهارات تصميم واجهات المستخدم.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/css-tut.jpg" alt="course1-image" id="css-t" />
+        </div>
+        <div class="course1-desc">
+          <h3>CSS Tutorials Point</h3>
+          <p>
+            كتاب "CSS Tutorial" يستعرض تقنيات تنسيق صفحات الويب، مع التركيز على
+            القواعد الأساسية، والخصائص، وأساليب التصميم، مما يعزز فهم القارئ
+            لكيفية إنشاء واجهات مستخدم فعالة.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+    </div>
+    <div class="prog-course" id="str-course">
+      <h2 style="padding: 5px 30px">مشاريع برمجية1</h2>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/web-proj1.png" alt="course1-image" id="web-proj1" />
+        </div>
+        <div class="course1-desc">
+          <h3>تعلم بناء موقع كامل بلغة Html & Css</h3>
+          <p>
+            شرح بناء موقع كامل بلغة HTML وCSS، يتضمن خطوات عملية لتطبيق
+            الأساسيات، مما يمكّن المتعلمين من إنشاء موقع ويب جذاب بسهولة.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/web-proj2.png" alt="course1-image" id="css-image2" />
+        </div>
+        <div class="course1-desc">
+          <h3>Html & Css Projects</h3>
+          <p>
+            سلسلة "HTML & CSS Projects" تشجع المتعلمين على تطبيق مهاراتهم من
+            خلال مشاريع عملية، مما يعزز فهمهم ويمنحهم الثقة لإنشاء تصميمات ويب
+            مبتكرة وجذابة.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/Bootstrap-img.png"
+            alt="course1-image"
+            id="bs-image"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>تعلم ال Bootstrap بأحتراف</h3>
+          <p>
+            كورس تعلم Bootstrap يركز على تصميم واجهات مستخدم سريعة الاستجابة، مع
+            شرح شامل للعناصر والتخطيطات. يتضمن أمثلة عملية لتعزيز مهارات
+            المتعلمين في تطوير الويب.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+    </div>
+    <div class="prog-course" id="oop">
+      <h2 style="padding: 5px 30px" class="JavaScript-title">
+        <i class="fa-brands fa-js"></i>JavaScript
+      </h2>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/javascript-img.png"
+            alt="course1-image"
+            id="j-image"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>تعلم لغة ال JavaScript بأحتراف</h3>
+          <p>
+            كورس تعلم JavaScript بأحتراف يركز على الأساسيات وصولاً إلى البرمجة
+            الكائنية، مما يُعزز فهمك للمفاهيم الأساسية مثل الكائنات والوراثة،
+            ويساعدك في إنشاء تطبيقات ويب ديناميكية.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/j-img2.png" alt="course1-image" id="j-image2" />
+        </div>
+        <div class="course1-desc">
+          <h3>Learning JavaScript In English</h3>
+          <p>
+            كورس تعلم DOM يركز على التعامل مع مستندات HTML باستخدام JavaScript،
+            مع شرح كيفية تعديل العناصر وإنشاء تفاعلات ديناميكية لتحسين تجربة
+            المستخدم.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image" id="java-backimage">
+          <img src="Images/java-book.jpg" alt="course1-image" id="oop-book" />
+        </div>
+        <div class="course1-desc">
+          <h3 dir="ltl">دليل JavaScript الشامل</h3>
+          <p>
+            كتاب "دليل JavaScript الشامل" من أكاديمية حسوب يقدم شرحًا مفصلًا
+            للغة، بدءًا من الأساسيات إلى المفاهيم المتقدمة، مع أمثلة عملية
+            للمبتدئين والمحترفين.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/jQuery.png" alt="course1-image" id="j-image2" />
+        </div>
+        <div class="course1-desc">
+          <h3>تعلم مكتبة jQuery بأحتراف</h3>
+          <p>
+            كورس jQuery القصير يوفر فهمًا شاملًا للمكتبة، مع التركيز على تحديد
+            العناصر، معالجة الأحداث، والتأثيرات، من خلال أمثلة عملية وتمارين
+            تفاعلية لتعزيز المهارات.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+    </div>
+    <div class="prog-course" id="oop">
+      <h2 style="padding: 5px 30px">مشاريع برمجية2</h2>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/web-front.png" alt="course1-image" id="web-front" />
+        </div>
+        <div class="course1-desc">
+          <h3>Front-end Website Projects</h3>
+          <p>
+            كورس يركز على تطوير مهارات بناء واجهات المستخدم من خلال مشاريع
+            عملية، مستخدمًا HTML، CSS، وJavaScript لإنشاء مواقع ويب تفاعلية
+            وجذابة تعزز تجربة المستخدم.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/diliacdemic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        >
+          <i class="fa-brands fa-instagram" id="instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/share/8ka4ZRKXggssccfE/"
+          ><i class="fa-brands fa-square-facebook" id="facebook"></i
+        ></a>
+        <a href="https://x.com/Dili2024?t=FEdQCEe7-YIdGlCPbQsQnQ&s=09"
+          ><i class="fa-brands fa-x-twitter" id="x-twitter"></i
+        ></a>
+        <a href="https://wa.me/967777925424"
+          ><i class="fa-brands fa-square-whatsapp" id="whatsapp"></i
+        ></a>
+        <a href="https://t.me/Dili_acadmey_2024"
+          ><i class="fa-brands fa-telegram" id="telegram"></i
+        ></a>
+      </div>
+      <div class="line"></div>
+      <p>أكاديمية دليلي لتعلم البرمجة-2024-2025م</p>
+    </footer>
+  </body>
+</html>

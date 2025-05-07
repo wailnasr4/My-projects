@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/icon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="Images/icon.png" sizes="32x32" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="description"
+      content="انضم إلينا في أكاديمية ديليل لتبدأ رحلتك في عالم البرمجة بثقة وإلهام"
+    />
+    <title>أكاديمية دليلي</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body dir="rtl">
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.png" alt="شعار" width="75" height="60" />
+        <a href="#">دليلي</a>
+      </div>
+      <ul>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        <li><a href="courses.html">كورسات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="visitors_opinions.html">آراء الزوار</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+    <div class="prog-title">
+      <h2><i class="fa-brands fa-flutter"></i>&nbsp;&nbsp;تطبيقات الموبايل</h2>
+    </div>
+    <div class="prog-course">
+      <h2 style="padding: 5px 40px">Cross Platform Apps</h2>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/dart-img.png" alt="course1-image" id="dart-image" />
+        </div>
+        <div class="course1-desc">
+          <h3>تعلم لغة Dart بأحتراف</h3>
+          <p>
+            كورس أساسيات لغة Dart يركز على تعلم المفاهيم الأساسية، مثل
+            المتغيرات، الدوال، والهياكل الشرطية. يتضمن تمارين عملية ومشاريع
+            بسيطة لتعزيز الفهم وتطبيق المعرفة بشكل فعال.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/oop-book.png" alt="course1-image" id="dart-book" />
+        </div>
+        <div class="course1-desc">
+          <h3>كتاب لتعلم أساسيات لغة Dart</h3>
+          <p>
+            كتاب يقدم شرحًا وافيًا للمفاهيم الأساسية في Dart، مع أمثلة عملية
+            وتمارين، مما يجعله مناسبًا للمبتدئين لتعلم بناء تطبيقات فعالة
+            بسهولة.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/Android-studio.png"
+            alt="course1-image"
+            id="Android-img"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس لتعلم و تثبيت Android Studio</h3>
+          <p>
+            كورس قصير لتعلم وتثبيت Android Studio يركز على خطوات التثبيت
+            والإعداد، مع دروس عملية لإنشاء التطبيقات وإدارة المشاريع بكفاءة
+            وسهولة للمبتدئين.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/flutter-img.png"
+            alt="course1-image"
+            id="flutter-img"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس للتعرف على لغة ال Flutter</h3>
+          <p>
+            كورس للتعرف على أساسيات لغة Flutter يغطي تطوير تطبيقات الهاتف
+            المحمول، مع دروس عملية وأمثلة، مما يعزز فهم المتعلمين لبناء تطبيقات
+            جذابة وسهلة الاستخدام.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/flutter-ui.png"
+            alt="course1-image"
+            id="flutter-img2"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>بناء واجهات المستخدم باستخدام Flutter</h3>
+          <p>
+            كورس لبناء واجهات المستخدم باستخدام Flutter يركز على تصميم وتطوير
+            واجهات جذابة وسريعة الاستجابة، مع دروس عملية وتمارين لتعزيز المهارات
+            في إنشاء تطبيقات متميزة.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/flutter-img3.png"
+            alt="course1-image"
+            id="flutter-img3"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس التعامل مع فواعد البيانات والتخزين</h3>
+          <p>
+            كورس قواعد البيانات والتخزين باستخدام Flutter يركز على إدارة
+            البيانات عبر SQLite وFirebase، مع دروس عملية لتعزيز دمج قواعد
+            البيانات في التطبيقات بشكل فعال.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/flutter-img4.png"
+            alt="course1-image"
+            id="flutter-img4"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس التعامل مع APIs والخدمات الخارجية</h3>
+          <p>
+            كورس التعامل مع APIs والخدمات الخارجية في Flutter يركز على استهلاك
+            البيانات من مصادر خارجية، مع دروس حول HTTP وJSON ودمج خدمات مثل
+            Firebase.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/flutter-proj.png"
+            alt="course1-image"
+            id="flutter-project"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>مشاريع برمجية</h3>
+          <p>
+            كورس مشاريع برمجية في Flutter يقدم تجربة عملية لتطوير تطبيقات
+            متنوعة، مما يعزز مهارات البرمجة من خلال مشاريع حقيقية وإتقان تطوير
+            التطبيقات بشكل احترافي.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/diliacdemic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        >
+          <i class="fa-brands fa-instagram" id="instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/share/8ka4ZRKXggssccfE/"
+          ><i class="fa-brands fa-square-facebook" id="facebook"></i
+        ></a>
+        <a href="https://x.com/Dili2024?t=FEdQCEe7-YIdGlCPbQsQnQ&s=09"
+          ><i class="fa-brands fa-x-twitter" id="x-twitter"></i
+        ></a>
+        <a href="https://wa.me/967777925424"
+          ><i class="fa-brands fa-square-whatsapp" id="whatsapp"></i
+        ></a>
+        <a href="https://t.me/Dili_acadmey_2024"
+          ><i class="fa-brands fa-telegram" id="telegram"></i
+        ></a>
+      </div>
+      <div class="line"></div>
+      <p>أكاديمية دليلي لتعلم البرمجة-2024-2025م</p>
+    </footer>
+  </body>
+</html>

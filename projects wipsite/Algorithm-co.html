@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/icon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="Images/icon.png" sizes="32x32" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="description"
+      content="انضم إلينا في أكاديمية ديليل لتبدأ رحلتك في عالم البرمجة بثقة وإلهام"
+    />
+    <title>أكاديمية دليلي</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body dir="rtl">
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.png" alt="شعار" width="75" height="60" />
+        <a href="#">دليلي</a>
+      </div>
+      <ul>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        <li><a href="courses.html">كورسات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="visitors_opinions.html">آراء الزوار</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+    <div class="prog-title">
+      <h2>
+        <i class="fa-solid fa-code-fork"></i>&nbsp;&nbsp;تحليل وتصميم
+        الخوارزميات
+      </h2>
+    </div>
+    <div class="prog-course">
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/algor-img1.png"
+            alt="course1-image"
+            id="Algor1-image"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس أساسيات الخوارزميات</h3>
+          <p>
+            كورس أساسيات الخوارزميات يركز على دراسة تصميم وتحليل الخوارزميات،
+            بما في ذلك تعقيد الزمن والفضاء، ويعزز الفهم العميق لمبادئ البرمجة
+            الفعالة.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/algorithm-image.png"
+            alt="course1-image"
+            id="Algor2-image"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>Fundamentals of Algorithms</h3>
+          <p>
+            كورس أساسيات الخوارزميات يقدم شرحًا باللغة الإنجليزية للمفاهيم
+            الأساسية مثل التعقيد الزمني، مما يعزز الفهم التطبيقي لتحسين أداء
+            البرمجيات.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/Algor3-img.png"
+            alt="course1-image"
+            id="Algor3-img"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>تحليل الخوارزميات و تعقيدها</h3>
+          <p>
+            كتاب "تحليل الخوارزميات" يدرس تقييم الأداء من خلال التعقيد الزمني،
+            ويستعرض تقنيات تحليل باستخدام النماذج الرياضية مع أمثلة تفصيلية
+            لتعزيز الفهم.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/DS-img.png" alt="course1-image" id="ds-image" />
+        </div>
+        <div class="course1-desc">
+          <h3>هياكل البيانات و خوارزميات الرسوم البيانية</h3>
+          <p>
+            كورس لتعلم هياكل البيانات بالتزامن مع الخوارزميات، حيث يعزز الفهم
+            العميق لتحليل البيانات وحل المشكلات المعقدة بكفاءة.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/algor6-img.png" alt="course1-image" id="algor6-g" />
+        </div>
+        <div class="course1-desc">
+          <h3>خوارزميات البحث والترتيب</h3>
+          <p>
+            كورس خوارزميات البحث والترتيب يركز على تقنيات فعالة مثل Quick Sort
+            وMerge Sort وBinary Search، مع تحليل الأداء واختيار الخوارزمية
+            المناسبة حسب احتياجات البيانات.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img
+            src="Images/code-photo.png"
+            alt="course1-image"
+            id="algor6-image"
+          />
+        </div>
+        <div class="course1-desc">
+          <h3>Algorithms Design Techniques and Analysis</h3>
+          <p>
+            كتاب يقدّم استراتيجيات شاملة لتصميم وتحليل الخوارزميات، مستعرضًا
+            تقنيات مثل البرمجة الديناميكية، مع أمثلة توضيحية لتعزيز فهم الطلاب
+            وتحسين مهاراتهم.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/diliacdemic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        >
+          <i class="fa-brands fa-instagram" id="instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/share/8ka4ZRKXggssccfE/"
+          ><i class="fa-brands fa-square-facebook" id="facebook"></i
+        ></a>
+        <a href="https://x.com/Dili2024?t=FEdQCEe7-YIdGlCPbQsQnQ&s=09"
+          ><i class="fa-brands fa-x-twitter" id="x-twitter"></i
+        ></a>
+        <a href="https://wa.me/967777925424"
+          ><i class="fa-brands fa-square-whatsapp" id="whatsapp"></i
+        ></a>
+        <a href="https://t.me/Dili_acadmey_2024"
+          ><i class="fa-brands fa-telegram" id="telegram"></i
+        ></a>
+      </div>
+      <div class="line"></div>
+      <p>أكاديمية دليلي لتعلم البرمجة-2024-2025م</p>
+    </footer>
+  </body>
+</html>

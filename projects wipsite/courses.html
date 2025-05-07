@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/icon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="Images/icon.png" sizes="32x32" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="description"
+      content="انضم إلينا في أكاديمية ديليل لتبدأ رحلتك في عالم البرمجة بثقة وإلهام"
+    />
+    <title>أكاديمية دليلي</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body dir="rtl">
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.png" alt="شعار" width="75" height="60" />
+        <a href="#">دليلي</a>
+      </div>
+      <ul>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        <li><a href="#">كورسات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="visitors_opinions.html">آراء الزوار</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+    <div class="content">
+      <h1><i class="fa-solid fa-laptop-code"></i> كورسات </h1>
+      <div class="Courses">
+        <div class="course">
+          <div class="course-image">
+            <img src="Images/prog-image.png" alt="صورة الدورة" />
+          </div>
+          <h3>البرمجة - أساليب البرمجة</h3>
+          <a href="prog-courses.html"
+            ><button>
+              عرض الآن &nbsp;&nbsp;&nbsp;<i
+                class="fa-solid fa-arrow-left"
+              ></i></button
+          ></a>
+        </div>
+        <div class="course">
+          <div class="course-image">
+            <img src="Images/nlp-image.png" alt="صورة الدورة" />
+          </div>
+          <h3>الذكاء الاصطناعي - NLP</h3>
+          <a href="nlp-courses.html"><button>
+            عرض الآن &nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-left"
+            ></i></button</a>
+        </div>
+        <div class="course">
+          <div class="course-image">
+            <img
+              src="Images/network-image.png"
+              alt="صورة الدورة"
+              id="network"
+            />
+          </div>
+          <h3 style="color: black;">الشبكات والاتصالات</h3>
+          <a href="net-courses.html">
+            <button>
+              عرض الآن &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-left"></i>
+            </button>
+          </a>
+        </div>        
+      </div>
+    </div>
+    <div class="content" id="content2">
+      <div class="Courses">
+        <div class="course">
+          <div class="course-image">
+            <img
+              src="Images/algorithm-image.png"
+              alt="صورة الدورة"
+              id="algorithm"
+            />
+          </div>
+          <h3>تحليل وتصميم الخوارزميات</h3>
+          <a href="Algorithm-co.html"><button>
+            عرض الآن &nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-left"
+            ></i></button></a>
+        </div>
+        <div class="course">
+          <div class="course-image">
+            <img src="Images/app-image.png" alt="صورة الدورة" id="app" />
+          </div>
+          <h3>تطبيقات الموبايل</h3>
+          <a href="prog-application.html"><button>
+            عرض الآن &nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-left"
+            ></i></button></a>
+        </div>
+        <div class="course">
+          <div class="course-image">
+            <img src="Images/web-image.png" alt="صورة الدورة" id="web" />
+          </div>
+          <h3>تصميم الويب</h3>
+          <a href="web-courses.html"><button>
+            عرض الآن &nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-left"
+            ></i></button></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/diliacdemic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        >
+          <i class="fa-brands fa-instagram" id="instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/share/8ka4ZRKXggssccfE/"
+          ><i class="fa-brands fa-square-facebook" id="facebook"></i
+        ></a>
+        <a href="https://x.com/Dili2024?t=FEdQCEe7-YIdGlCPbQsQnQ&s=09"
+          ><i class="fa-brands fa-x-twitter" id="x-twitter"></i
+        ></a>
+        <a href="https://wa.me/967777925424"
+          ><i class="fa-brands fa-square-whatsapp" id="whatsapp"></i
+        ></a>
+        <a href="https://t.me/Dili_acadmey_2024"
+          ><i class="fa-brands fa-telegram" id="telegram"></i
+        ></a>
+      </div>
+      <div class="line"></div>
+      <p>أكاديمية دليلي لتعلم البرمجة-2024-2025م</p>
+    </footer>
+  </body>
+</html>

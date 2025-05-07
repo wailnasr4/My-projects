@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/icon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="Images/icon.png" sizes="32x32" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="description"
+      content="انضم إلينا في أكاديمية ديليل لتبدأ رحلتك في عالم البرمجة بثقة وإلهام"
+    />
+    <title>أكاديمية دليلي</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body dir="rtl">
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.png" alt="شعار" width="75" height="60" />
+        <a href="#">دليلي</a>
+      </div>
+      <ul>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        <li><a href="courses.html">كورسات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="visitors_opinions.html">آراء الزوار</a></li>
+        <li><a href="#">تواصل معنا</a></li>
+      </ul>
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+    <div dir="rtl" class="contact_us">
+      <h2 id="countact">
+        <i class="fa-solid fa-envelopes-bulk"></i>&nbsp;&nbsp;&nbsp;تواصل معنا
+      </h2>
+      <section class="contact-section">
+        <div class="contact-info">
+          <p>
+            يمكنك التواصل مع فريق الدعم الخاص بنا ومن ثم سيتم الرد عليك في أقرب
+            وقت
+          </p>
+          <ul>
+            <a href="tel: 777925424"
+              ><li id="Conc">
+                <i class="fas fa-phone"></i> +967 777 925 424
+              </li></a
+            >
+            <a href="https://maps.app.goo.gl/BWdS6B8Q21Enj6y89">
+              <li id="Conc">
+                <i class="fas fa-map-marker-alt"></i> Yemen-IBB-IBB
+                University&nbsp;
+              </li></a
+            >
+            <a href="https://www.youtube.com/channel/UCMjgIOyjNS1UvbpCtKrD5kQ">
+              <li id="Conc"><i class="fab fa-youtube"></i> @DiliAcdemic</li></a
+            >
+          </ul>
+
+          <div class="social-icons2">
+            <a href="https://www.facebook.com/share/8ka4ZRKXggssccfE/"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/diliacdemic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://wa.me/967777925424"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form action method="post">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="اسمك الأول"
+              required
+              maxlength="10"
+              id="first_name"
+            />
+            <input
+              type="text"
+              name="last_name"
+              placeholder="اسمك الأخير"
+              required
+              maxlength="10"
+              id="last_name"
+            />
+            <input type="email" name="email" placeholder="البريد الإلكتروني" />
+            <input
+              type="text"
+              name="country"
+              placeholder="الدولة"
+              required
+              maxlength="10"
+              id="country_name"
+            />
+            <textarea
+              name="message"
+              placeholder="اكتب رسالتك هنا..."
+              required
+              maxlength="65"
+              id="Text_message"
+            ></textarea>
+            <button type="button" id="contact-btn" onclick="createCard()">
+              إرســــــــــــــــــــــــال
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

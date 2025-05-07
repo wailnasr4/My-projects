@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/icon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="Images/icon.png" sizes="32x32" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="description"
+      content="انضم إلينا في أكاديمية ديليل لتبدأ رحلتك في عالم البرمجة بثقة وإلهام"
+    />
+    <title>أكاديمية دليلي</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body dir="rtl">
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.png" alt="شعار" width="75" height="60" />
+        <a href="#">دليلي</a>
+      </div>
+      <ul>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        <li><a href="courses.html">كورسات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="visitors_opinions.html">آراء الزوار</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+    <div class="prog-title">
+      <h2>
+        <i class="fa-solid fa-network-wired"></i> &nbsp;&nbsp;&nbsp;الشبكات
+        والاتصالات
+      </h2>
+    </div>
+    <div class="prog-course">
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/net1-img.png" alt="course1-image" id="nw1-image" />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس أساسيات الشبكات والاتصالات</h3>
+          <p>
+            كورس يركز على دراسة بنية الشبكات، بروتوكولات الاتصال، وإدارة
+            البيانات. يهدف إلى تزويد الطلاب بالمعرفة اللازمة لفهم تصميم الشبكات
+            وأمنها.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/net2-img.png" alt="course1-image" id="nw2-image" />
+        </div>
+        <div class="course1-desc">
+          <h3>Networking and Communications Course</h3>
+          <p>
+            كورس يفتح آفاقًا لفهم الشبكات وبروتوكولات الاتصال، معززًا الفضول
+            والمهارات رغم تحديات اللغة الا أن الكورس يستحق المشاهدة ابدأ مغامرتك
+            التعليمية!
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/nw3-img.png" alt="course1-image" id="nw3-image" />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس تحضير شهادة Cisco (CCNA)</h3>
+          <p>
+            كورس تحضير شهادة Cisco (CCNA) يزود المتعلمين بالمعرفة الأساسية في
+            الشبكات، حيث تُعتبر الشهادة معترفًا بها عالميًا وتفتح أبواب فرص عمل
+            متميزة في تكنولوجيا المعلومات.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/net3-img.png" alt="course1-image" id="net3-g" />
+        </div>
+        <div class="course1-desc">
+          <h3>كورس تطبيق عملي أو محاكاة للشبكات</h3>
+          <p>
+            كورس الشبكات باستخدام Packet Tracer يتيح تجربة عملية في تصميم
+            الشبكات ومحاكاة السيناريوهات الحقيقية، مما يعزز المهارات العملية وحل
+            المشكلات في بيئات العمل.
+          </p>
+          <a href="#">عرض الآن</a>
+        </div>
+      </div>
+      <div class="prog-course1">
+        <div class="course1-image">
+          <img src="Images/net4-img.png" alt="course1-image" id="net4-g" />
+        </div>
+        <div class="course1-desc">
+          <h3>كتاب أساسيات الشبكات والاتصالات</h3>
+          <p>
+            كتاب "أساسيات الشبكات والاتصالات" يقدم مفاهيم الشبكات وبروتوكولات
+            الاتصال بأسلوب مبسط، مما يسهل فهم كيفية عمل الشبكات وتبادل البيانات.
+          </p>
+          <a href="#" id="download-btn">تنزيل الآن</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/diliacdemic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        >
+          <i class="fa-brands fa-instagram" id="instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/share/8ka4ZRKXggssccfE/"
+          ><i class="fa-brands fa-square-facebook" id="facebook"></i
+        ></a>
+        <a href="https://x.com/Dili2024?t=FEdQCEe7-YIdGlCPbQsQnQ&s=09"
+          ><i class="fa-brands fa-x-twitter" id="x-twitter"></i
+        ></a>
+        <a href="https://wa.me/967777925424"
+          ><i class="fa-brands fa-square-whatsapp" id="whatsapp"></i
+        ></a>
+        <a href="https://t.me/Dili_acadmey_2024"
+          ><i class="fa-brands fa-telegram" id="telegram"></i
+        ></a>
+      </div>
+      <div class="line"></div>
+      <p>أكاديمية دليلي لتعلم البرمجة-2024-2025م</p>
+    </footer>
+  </body>
+</html>
