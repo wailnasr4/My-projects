@@ -1,0 +1,15 @@
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\bin\Debug\Exam_Nagm.exe.config
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\bin\Debug\Exam_Nagm.exe
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\bin\Debug\Exam_Nagm.pdb
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.csproj.AssemblyReference.cache
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.csproj.SuggestedBindingRedirects.cache
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.Form1.resources
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.frm_Data.resources
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.Frm_Set_Image_Of_Students.resources
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.frm_ShowData_Of_Students.resources
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.Properties.Resources.resources
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.csproj.GenerateResource.cache
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.csproj.CoreCompileInputs.cache
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.exe
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.pdb
+C:\Users\MK\Desktop\Exam_Nagm\Exam_Nagm\obj\Debug\Exam_Nagm.frm_Edit_Data.resources

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73004A10-8C0B-4516-B7C5-BDF39AD7ACA2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>wail</RootNamespace>
+    <AssemblyName>wail</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="lecture_10\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_10\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\addStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\addStudent.Designer.cs">
+      <DependentUpon>addStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\editStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\editStudent.Designer.cs">
+      <DependentUpon>editStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\showStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\showStudents.Designer.cs">
+      <DependentUpon>showStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_10\dig_2\student.cs" />
+    <Compile Include="lecture_2\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_2\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_2\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_2\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_2\dig_3\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_2\dig_3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_3\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_3\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_3\dig_1\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_3\dig_1\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_3\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_3\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_3\dig_3\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_3\dig_3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_3\dig_4\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_3\dig_4\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_4\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_4\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_4\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_4\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_4\dig_3\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_4\dig_3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_5\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_5\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_5\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_5\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_5\dig_3\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_5\dig_3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_5\dig_4\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_5\dig_4\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_3\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_4\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_4\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_5\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_5\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_6\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_6\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_6\dig_7\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_6\dig_7\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_7\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_7\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_7\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_7\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_7\dig_2\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_7\dig_2\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_7\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_7\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_7\person.cs" />
+    <Compile Include="lecture_7\student.cs" />
+    <Compile Include="lecture_8\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_8\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_8\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_8\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_8\dig_2\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_8\dig_2\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_8\dig_3\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_8\dig_3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_9\dig_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_9\dig_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecture_9\dig_2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture_9\dig_2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="lecture_10\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_10\dig_2\addStudent.resx">
+      <DependentUpon>addStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_10\dig_2\editStudent.resx">
+      <DependentUpon>editStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_10\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_10\dig_2\showStudents.resx">
+      <DependentUpon>showStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_2\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_2\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_2\dig_3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_3\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_3\dig_1\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_3\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_3\dig_3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_3\dig_4\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_4\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_4\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_4\dig_3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_5\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_5\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_5\dig_3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_5\dig_4\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_4\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_5\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_6\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_6\dig_7\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_7\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_7\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_7\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_8\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_8\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_8\dig_2\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_8\dig_3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_9\dig_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture_9\dig_2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lecture_2\homework\" />
+    <Folder Include="lecture_3\homework\" />
+    <Folder Include="lecture_4\homework\" />
+    <Folder Include="lecture_5\homework\" />
+    <Folder Include="lecture_6\homework\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
