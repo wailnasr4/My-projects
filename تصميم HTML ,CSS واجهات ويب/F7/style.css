@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+}
+
+.parent {
+    display: flex;
+    position: relative;
+    top: 50px;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    line-height: 200px;
+}
+
+.item {
+    background-color: rgb(88, 45, 127);
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media(max-width:600px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%;
+    }
+}
+
+@media(min-width:601px)and(max-width:992px) {
+    .parent {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 49%;
+    }
+}

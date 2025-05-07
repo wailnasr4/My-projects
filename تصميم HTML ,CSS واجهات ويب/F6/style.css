@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-size: 15px;
+    color: rgb(156, 145, 145);
+    line-height: 30px;
+    margin: 10px;
+}
+
+.box1 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(93, 195, 161);
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s; */
+    transition: all 2s 1s ease;
+}
+
+.box1:hover {
+    background-color: green;
+    width: 50%;
+    height: 100px;
+}
+
+.containerci {
+    position: relative;
+}
+
+.elemsql {
+    background-color: #48535c;
+    border-radius: 10px;
+    height: 150px;
+    margin: 100px;
+    width: 150px;
+    line-height: 150px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.elem1sql {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.elem2sql {
+    background-color: rgb(69, 173, 69);
+}
+
+.elem2sql:hover {
+    transform: translate(20px, 20px);
+}
+
+.elemdeg {
+    background-color: #3498db;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    line-height: 150px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.elemdeg:hover {
+    transform: skew(10deg, 20deg);
+}
+
+.elemorigin {
+    background-color: #f39c12;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    line-height: 150px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.elemorigin:hover {
+    transform: rotate(45deg);
+}
+
+.elemorcale {
+    background-color: #b91626;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    line-height: 150px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.elemorcale:hover {
+    transform: scale(2);
+}
+
+.conraineran {
+    height: 100px;
+    width: 100px;
+    background-color: #bb64a7;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 100px;
+    line-height: 100px;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* يظل الانيمنشن يعمل الى مالانهاية */
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: none;
+}
+
+@keyframes square {
+    0% {
+        background-color: #3498db;
+        width: 0;
+    }
+
+    100% {
+        background-color: #f39c12;
+        width: 30%;
+    }
+}

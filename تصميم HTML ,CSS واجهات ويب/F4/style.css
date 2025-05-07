@@ -1,0 +1,76 @@
+body {
+    direction: rtl;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 800px;
+    top: 50px;
+    background-color: aliceblue;
+    /* خواص ال flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.box {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    width: 20%;
+}
+
+.box:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: rgb(212, 82, 82);
+}
+
+.box2 {
+    background-color: rgb(250, 240, 108);
+}
+
+.box3 {
+    background-color: rgb(127, 163, 104);
+}
+
+.box4 {
+    background-color: rgb(88, 160, 182);
+}
+
+.box5 {
+    background-color: rgb(206, 131, 216);
+}
+
+.box6 {
+    background-color: rgb(255, 215, 129);
+}
+
+.box7 {
+    background-color: rgb(250, 108, 179);
+}
+
+.box8 {
+    background-color: rgb(197, 250, 164);
+}
+
+.box9 {
+    background-color: rgb(190, 235, 248);
+}
+
+.box10 {
+    background-color: rgb(148, 0, 246);
+}

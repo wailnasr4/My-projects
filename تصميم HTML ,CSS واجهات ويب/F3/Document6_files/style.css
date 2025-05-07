@@ -1,0 +1,192 @@
+body {
+    direction: rtl;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagefixed {
+    position: fixed;
+    width: 50px;
+    top: 1%;
+    left: 1%;
+}
+
+div#a {
+    position: relative;
+    width: 500px;
+    height: 270px;
+    background-color: #c6de89;
+    margin: 20px;
+    float: right;
+    margin-left: 60px;
+}
+
+div#b {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    bottom: -50px;
+    left: -50px;
+    background-color: #839b48;
+    padding: 15px;
+    color: white;
+    text-align: justify;
+}
+
+#a>img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100px;
+    height: 120px;
+}
+
+#b>img {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+}
+
+/*------------ pclass الفئة الزائفة -------------------*/
+.pshow {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.divshow {
+    margin: 50 10 10 0;
+    font-size: 18px;
+    color: darkblue;
+    cursor: pointer;
+    padding: 60px;
+    position: relative;
+    top: 40px;
+    right: 100px;
+}
+
+.divshow:hover .pshow {
+    display: block;
+}
+
+/*------------pelement  العنصر الزائف -------------------*/
+.pelement {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid rgb(122, 120, 120);
+    color: black;
+    font-size: 18px;
+    margin: 50px 20px 0 20px;
+    clear: right;
+    position: relative;
+    top: 50px;
+}
+
+.pelement::first-letter {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+h2::after {
+    content: url(../image/logo.png);
+}
+
+::marker {
+    color: red;
+    font-size: 20px;
+}
+
+::selection {
+    color: white;
+    background: rgb(179, 179, 11);
+}
+
+input:read-only {
+    background-color: rgb(183, 183, 49);
+}
+
+input {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid rgb(12, 122, 71);
+    margin: 10px;
+}
+
+input:focus {
+    width: 350px;
+}
+
+.drop ul {
+    display: inline;
+    max-width: 0;
+    padding: 0;
+}
+
+.drop ul li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: steelblue;
+    width: 20px;
+}
+
+.drop ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.drop ul li:hover {
+    background: #555;
+}
+
+.drop ul li :hover ul {
+    display: block;
+}
+
+.drop ul li ul {
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    width: 250px;
+    box-shadow: gray 5px 5px 10px;
+    z-index: 3;
+}
+
+.drop ul li ul li {
+    background: #555;
+    display: block;
+    border-top: 1px solid #555;
+}
+
+.drop ul li ul li:hover {
+    background: rgb(159, 73, 73);
+}
+
+.ull {
+    display: flex;
+    text-align: right;
+    padding: 5px;
+    border: 1px solid rgb(122, 120, 120);
+    color: black;
+    font-size: 18px;
+    margin: 90px 20px 0 20px;
+    clear: right;
+    position: relative;
+}
+
+.ull button {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #839b48;
+    border: 3px solid yellowgreen;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+}

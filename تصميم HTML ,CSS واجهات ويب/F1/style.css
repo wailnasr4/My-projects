@@ -1,0 +1,66 @@
+body {
+    background-image: url("../image/image2.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    background-attachment: scroll;
+}
+
+P {
+    width: 700px;
+    height: 350px;
+    padding: 50px;
+    margin: 20px;
+    background-color: burlywood;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.text {
+    font-size: large;
+    font-weight: bold;
+    counter-reset: rgb(102, 70, 28);
+}
+
+.border1 {
+    border-width: 2px;
+    border-style: double;
+    border-color: brown;
+    border: 1px solid blue;
+    border-left-color: red;
+    border-radius: 3px;
+    border-top-style: ridge;
+    border-bottom: 10px groove rgb(207 120 5);
+    border-top-right-radius: 100px 50px;
+}
+
+
+aside nav ul li {
+    width: 70%;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    text-align: right;
+}
+
+aside nav ul li>a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(126, 43, 43);
+    font-size: 16px;
+    font-family: 'cairo';
+}
+
+aside nav ul li>a:hover {
+    border-right: 20px solid rgb(47, 124, 175);
+    color: rgb(4, 112, 175);
+}
+
+aside nav ul li>a:focus {
+    color: rgb(26, 179, 59);
+}
+
+aside nav ul li>a:visited {
+    color: rgb(156, 112, 16);
+}
